@@ -1,0 +1,43 @@
+
+/* Definindo o estilo do corpo da página */
+body {
+    text-align: center;
+    width: 368px;
+    font-family: arial;
+    background-image: linear-gradient(55deg, blue, cyan);
+}
+
+h1{
+      margin-top: -20px;
+}
+
+div {
+    background: rgba(240, 237, 237, 0.801);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+}
+
+input {
+    padding: 15px;
+    border: none;
+}
+
+.btn-login {
+    background-color: #000099;/* cor verde já no estado normal */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-login:hover {
+    transform: scale(1.02);
+    background-color: #0000cc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

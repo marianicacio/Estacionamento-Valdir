@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Remover Vaga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_css/admin.css"/>
+</head>
+<body>
+    <form action="page_admin/remov_vaga.jsp" method="post">
+        <h1 style="font-family: fantasy;">Remover vaga</h1>
+        <div class="remov_vaga">
+            <p>
+                <label for="vaga">Quantidade de vagas a remover:</label>
+                <input type="number" name="vaga" id="vaga" min="1" required>
+            </p>
+            <p>
+                <input type="submit" class="botao" value="Enviar/Salvar">
+            </p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="page_operador/cadcarro.jsp" method="post">
+            <link rel="stylesheet" href="operador_css/operador.css"/>
+            <h1 style="font-family: fantasy;"> Cadastro do carro </h1>
+            
+                <div class="cad_carro">
+                    <p>
+                        <label for="placa">Placa do carro: </label>
+                        <input type="text" name="placa" id="placa" style="text-transform: uppercase;" maxlength="7" required>
+                    </p>
+                    <p>
+                        <label for="hora_entrada">Hora de Entrada do carro do carro: </label>
+                        <input type="time" name="hora_entrada" id="hora_entrada" required>
+                    </p>
+                    <p>
+                    <label for="Data de entrada">Data de Entrada do carro do carro: </label>
+                    <input type="date" name="data_entrada" id="data_entrada" required>
+                    </p>
+                    <input type="submit" class="botao" value="Enviar/Salvar">
+                </div>
+            </form>
+
+    </body>
+</html>

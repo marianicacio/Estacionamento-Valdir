@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Usando Flexbox para centralizar o conteúdo da página */
+body {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: auto;
+    /* Ocupa toda a altura da tela */
+    background-image: linear-gradient(55deg, rgb(9, 9, 153), cyan);
+    flex-direction: column;
+    /* Organiza o conteúdo verticalmente */
+    text-align: center;
+    /* Centraliza o texto dentro do body */
+    overflow: hidden;
+}
+
+/* Estilos para o header */
+header {
+    font-family: monospace;
+    background-color: #1A84C5;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    /* Centraliza o texto dentro do header */
+    /* Bordas arredondadas */
+    /* margin botton = Espaço abaixo do header */
+}
+
+h1 {
+    color: #F1FAEE;
+}
+
+/* Estilizando o nav (se necessário) */
+nav {
+    width: 100%;
+    background-color: #0F4185;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+element.style {
+    color: red;
+}
+
+/* Estilizando o iframe */
+iframe {
+    border: 0;
+    width: 100%;
+    height: 475px;
+    border-radius: 10px;
+    /* Bordas arredondadas para o iframe */
+}
+
+
+.button_config button {
+    background-color: #0F4185;
+    /* cor verde já no estado normal */
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.button_config button:hover {
+    transform: scale(1.02);
+    background-color: #0000cc;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* descobri que nao há necessidade de criar uma classe para cada botao diferente, 
+para que o usuario posso clicar, 
+não vou mudar por preguiça e ser muita coisa, 
+mas fica como observação :/ */
+
+
+/*Maria: Decidi arrumar pra facilitar o entendimento */

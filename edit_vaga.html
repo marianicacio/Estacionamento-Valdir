@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Alterar Preços</title>
+</head>
+<body>
+    <h1>Alterar Preços do Estacionamento</h1>
+    <form action="page_admin/editvaga.jsp" method="post">
+        <label for="preco_base">Preço Base:</label>
+        <input type="number" step="0.01" name="preco_base" id="preco_base" required /><br><br>
+
+        <label for="preco_adicional">Preço por Hora Adicional:</label>
+        <input type="number" step="0.01" name="preco_adicional" id="preco_adicional" required /><br><br>
+
+        <input type="submit" value="Alterar Preços" />
+    </form>
+</body>
+</html>

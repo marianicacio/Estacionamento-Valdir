@@ -1,0 +1,74 @@
+.cad_carro {
+                    background-color: rgba(240, 237, 237, 0.801);
+                    font-family: fantasy;
+                    padding: 20px;
+                    border-radius: 20px;
+                }
+
+                .botao {
+                    background-color: #000099;
+                    font-family: fantasy;
+                    color: white;
+                    border: none;
+                    padding: 10px;
+                    font-size: 12px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    margin-left: 150px;
+                }
+
+                .botao:hover {
+                    transform: scale(1.04);
+                }
+
+                    .saida_carro {
+                    background-color: rgba(240, 237, 237, 0.801);
+                    font-family: fantasy;
+                    padding: 20px;
+                    border-radius: 20px;
+                }
+
+                .botao_saida {
+                  background-color: #000099;
+                    font-family: fantasy;
+                    color: white;
+                    border: none;
+                    padding: 10px;
+                    font-size: 12px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    margin-top: 15px;
+                    margin-left: 150px;
+                }
+
+                .botao_saida:hover {
+                    transform: scale(1.04);
+                }
+                
+                
+                   .gerencia_carro table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    font-family: fantasy;
+                }
+
+            .gerencia_carro th, .gerencia_carro td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: center;
+            }
+
+                .gerencia_carro th, td {
+                    background-color: #ddd;
+                }
+                .Excluir a {
+                    color: #e60000; /* vermelho */
+                    text-decoration: none;
+                    font-weight: bold;
+                    transition: color 0.2s ease;
+                }
+
+                .Excluir a:hover {
+                    color: #a00000;
+                    text-decoration: underline;
+                }

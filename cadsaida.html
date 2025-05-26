@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="operador_css/operador.css"/>
+    </head>
+    <body>
+        <form action="page_operador/cadsaida.jsp" method="post">
+            
+             <h1 style="font-family: fantasy;"> Cadastro saida do carro </h1>
+        
+            
+            <div class="saida_carro">
+                    <p>
+                        <label for="placa">Placa do carro: </label>
+                        <input type="text" name="placa" id="placa" style="text-transform: uppercase;" maxlength="7" required>
+                    </p>
+                    <p>
+                        <label for="Hora de Saida do carro">Hora de Saida do carro: </label>
+                        <input type="time" name="hora_saida" id="hora_saida" required>
+                    </p>
+                    <p>
+                    <label for="Data de saida">Data de saida do carro do carro: </label>
+                    <input type="date" name="data_saida" id="data_saida" required>
+                    </p>
+                    <p>
+                    <label for="Forma de pagamento">Forma de pagamento:</label>
+                    <select name="pagamento" id="pagamento" required>
+                      <option value="" disabled selected>Selecione uma forma de pagamento</option>
+                      <option value="Dinheiro">Dinheiro</option>
+                      <option value="Debito">Debito</option>
+                    </select>
+                    </p>
+                    <p>
+                    <input type="submit" class="botao_saida" value="Enviar/Salvar">
+                    </p>
+                </div>
+        </form>
+    </body>
+</html>

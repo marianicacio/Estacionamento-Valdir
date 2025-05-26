@@ -1,0 +1,60 @@
+.cad_func {
+                    background-color: rgba(240, 237, 237, 0.801);
+                    font-family: fantasy;
+                    padding: 20px;
+                    border-radius: 20px;
+                }
+
+                .botao {                                /*nao precisa criar outro botao*/
+                    background-color: #000099;
+                    font-family: fantasy;
+                    color: white;
+                    border: none;
+                    padding: 10px;
+                    font-size: 12px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    margin-left: 155px;
+                    margin-top: 15px;
+                }
+
+                .botao:hover {
+                    transform: scale(1.04);
+                }
+
+                .editar_func{
+                     background-color: rgba(240, 237, 237, 0.801);
+                     font-family: fantasy;
+                     padding: 20px;
+                     border-radius: 20px;
+                }
+                .remov_func{
+                     background-color: rgba(240, 237, 237, 0.801);
+                     font-family: fantasy;
+                     padding: 20px;
+                     border-radius: 20px;
+                }
+                .insert_vaga{
+                     background-color: rgba(240, 237, 237, 0.801);
+                     font-family: fantasy;
+                     padding: 20px;
+                     border-radius: 20px;
+                }
+                .cad_vaga{
+                     background-color: rgba(240, 237, 237, 0.801);
+                     font-family: fantasy;
+                     padding: 20px;
+                     border-radius: 20px;
+                }
+                .edit_vaga{
+                     background-color: rgba(240, 237, 237, 0.801);
+                     font-family: fantasy;
+                     padding: 20px;
+                     border-radius: 20px;
+                }
+                 .remov_vaga{
+                     background-color: rgba(240, 237, 237, 0.801);
+                     font-family: fantasy;
+                     padding: 20px;
+                     border-radius: 20px;
+                }
