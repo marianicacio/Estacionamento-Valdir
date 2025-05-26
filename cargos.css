@@ -47,10 +47,6 @@ nav {
     border-radius: 10px;
 }
 
-element.style {
-    color: red;
-}
-
 /* Estilizando o iframe */
 iframe {
     border: 0;

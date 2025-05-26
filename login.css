@@ -2,7 +2,7 @@
 /* Definindo o estilo do corpo da página */
 body {
     text-align: center;
-    width: 368px;
+    width: 100%;
     font-family: arial;
     background-image: linear-gradient(55deg, blue, cyan);
 }
