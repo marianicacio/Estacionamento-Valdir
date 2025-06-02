@@ -1,74 +1,114 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .cad_carro {
-                    background-color: rgba(240, 237, 237, 0.801);
-                    font-family: fantasy;
-                    padding: 20px;
-                    border-radius: 20px;
-                }
+    background-color: rgba(240, 237, 237, 0.689);
+    font-family: fantasy;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
 
-                .botao {
-                    background-color: #000099;
-                    font-family: fantasy;
-                    color: white;
-                    border: none;
-                    padding: 10px;
-                    font-size: 12px;
-                    border-radius: 6px;
-                    cursor: pointer;
-                    margin-left: 150px;
-                }
+.cad_carro p input {
+    width: 97%;
+    height: 25px;
+}
 
-                .botao:hover {
-                    transform: scale(1.04);
-                }
+.cad_carro h1 {
+    font-weight: 300;
+}
 
-                    .saida_carro {
-                    background-color: rgba(240, 237, 237, 0.801);
-                    font-family: fantasy;
-                    padding: 20px;
-                    border-radius: 20px;
-                }
+.cad_carro p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
-                .botao_saida {
-                  background-color: #000099;
-                    font-family: fantasy;
-                    color: white;
-                    border: none;
-                    padding: 10px;
-                    font-size: 12px;
-                    border-radius: 6px;
-                    cursor: pointer;
-                    margin-top: 15px;
-                    margin-left: 150px;
-                }
+.botao {
+    background-color: #000099;
+    font-family: fantasy;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 150px;
+}
 
-                .botao_saida:hover {
-                    transform: scale(1.04);
-                }
-                
-                
-                   .gerencia_carro table {
-                    width: 100%;
-                    border-collapse: collapse;
-                    font-family: fantasy;
-                }
+.botao:hover {
+    transform: scale(1.04);
+}
 
-            .gerencia_carro th, .gerencia_carro td {
-                border: 1px solid #ccc;
-                padding: 10px;
-                text-align: center;
-            }
+.saida_carro {
+    background-color: rgba(240, 237, 237, 0.801);
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
 
-                .gerencia_carro th, td {
-                    background-color: #ddd;
-                }
-                .Excluir a {
-                    color: #e60000; /* vermelho */
-                    text-decoration: none;
-                    font-weight: bold;
-                    transition: color 0.2s ease;
-                }
+.saida_carro input {
+    width: 97%;
+    height: 25px;
+}
 
-                .Excluir a:hover {
-                    color: #a00000;
-                    text-decoration: underline;
-                }
+.saida_carro p {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.botao_saida {
+    background-color: #000099;
+    font-family: fantasy;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.botao_saida:hover {
+    transform: scale(1.04);
+}
+
+
+.gerencia_carro table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: fantasy;
+}
+
+.gerencia_carro th,
+.gerencia_carro td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.gerencia_carro th,
+td {
+    background-color: #ddd;
+}
+
+.Excluir a {
+    color: #e60000;
+    /* vermelho */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.Excluir a:hover {
+    color: #a00000;
+    text-decoration: underline;
+}
