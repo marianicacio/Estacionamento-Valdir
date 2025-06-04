@@ -7,6 +7,9 @@ form {
 .cad_carro {
     background-color: rgba(240, 237, 237, 0.689);
     font-family: fantasy;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
     color: black;
     padding: 20px;
     border-radius: 20px;
@@ -48,9 +51,13 @@ form {
     font-family: fantasy;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     padding: 20px;
     border-radius: 20px;
+}
+
+.saida_carro h1 {
+    font-weight: 300;
 }
 
 .saida_carro input {
@@ -64,6 +71,11 @@ form {
     flex-direction: column;
 }
 
+.saida_carro select {
+    width: 97%;
+    height: 33px;
+}
+
 .botao_saida {
     background-color: #000099;
     font-family: fantasy;
@@ -74,7 +86,7 @@ form {
     border-radius: 6px;
     cursor: pointer;
     margin-top: 15px;
-    margin-left: 150px;
+    align-self: end;
 }
 
 .botao_saida:hover {
