@@ -4,27 +4,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
 -->
 <html>
-    <head>
-        <title>Pagina de inserção de vaga</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="admin_css/admin.css"/>
-    </head>
-    <body>
-         <form action="page_admin/insertvaga.jsp" method="post">
-            
+
+<head>
+    <title>Pagina de inserção de vaga</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_css/admin.css" />
+</head>
+
+<body>
+    <form action="page_admin/insertvaga.jsp" method="post">
+
+
+        <div class="cad_func">
             <h1 style="font-family: fantasy;"> Inserir vaga </h1>
-            
-                <div class="insert_vaga">
-                    
-                    <p>
-                        <label for="vaga"> Insira as vaga: </label>
-                        <input type="number" name="vaga" id="vaga" required>
-                    </p>
-                    <p>
-                     <input type="submit" class="botao" value="Enviar/Salvar">
-                    </p>
-                </div>
-            </form>
-    </body>
+
+            <p>
+                <label for="vaga"> Insira as vaga: </label>
+                <input type="number" name="vaga" id="vaga" required>
+            </p>
+            <p>
+                <button type="submit" class="botao">Enviar/Salvar</button>
+            </p>
+        </div>
+    </form>
+</body>
+
 </html>
