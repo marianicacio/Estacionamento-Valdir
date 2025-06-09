@@ -4,30 +4,35 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
 -->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <form action="page_operador/relatorio.jsp" method="get">
-            <link rel="stylesheet" href="operador_css/operador.css"/>    
-        </form>
-        <form action="page_operador/relatorio.jsp" method="post">
-            
-            
-            <div class="saida_carro">
-                <h1 style="font-family: fantasy">Relatorio</h1>
-                    <p>
-                        <label for="Periodo começo">Selecione o periodo de começo: </label>
-                        <input type="date" name="periodo_começo" id="placa" style="text-transform: uppercase;" maxlength="7" required>
-                    </p>
-                    <p>
-                        <label for="Hora de Saida do carro">Selecione o periodo final: </label>
-                        <input type="date" name="periodo_final" id="hora_saida" required>
-                    </p>
-                    <input type="submit" class="botao_saida" value="Enviar/Salvar">
-                    </p>
-                </div>
-    </body>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <form action="page_operador/relatorio.jsp" method="get">
+        <link rel="stylesheet" href="operador_css/operador.css" />
+    </form>
+    <form action="page_operador/relatorio.jsp" method="post">
+
+
+        <div class="saida_carro">
+            <h1 style="font-family: fantasy">Relatorio</h1>
+            <p>
+                <label for="Periodo começo">Selecione o periodo de começo: </label>
+                <input type="date" name="periodo_começo" id="placa" style="text-transform: uppercase;" maxlength="7"
+                    required>
+            </p>
+            <p>
+                <label for="Hora de Saida do carro">Selecione o periodo final: </label>
+                <input type="date" name="periodo_final" id="hora_saida" required>
+            </p>
+            <button type="submit" class="botao_saida"> Enviar/Salvar </button> 
+            </p>
+        </div>
+    </form>
+</body>
+
 </html>
