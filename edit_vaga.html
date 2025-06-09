@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <title>Alterar Preços</title>
+    <link rel="stylesheet" href="admin_css/admin.css">
 </head>
 <body>
+    <div class="cad_func">
     <h1>Alterar Preços do Estacionamento</h1>
     <form action="page_admin/editvaga.jsp" method="post">
         <label for="preco_base">Preço Base:</label>
@@ -13,7 +15,8 @@
         <label for="preco_adicional">Preço por Hora Adicional:</label>
         <input type="number" step="0.01" name="preco_adicional" id="preco_adicional" required /><br><br>
 
-        <input type="submit" value="Alterar Preços" />
     </form>
+    <button type="submit" class="botao">Enviar/Salvar</button>
+</div>
 </body>
 </html>
