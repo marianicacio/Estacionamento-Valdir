@@ -1,60 +1,60 @@
+body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+form {
+     width: 500px;
+}
+
 .cad_func {
-                    background-color: rgba(240, 237, 237, 0.801);
-                    font-family: fantasy;
-                    padding: 20px;
-                    border-radius: 20px;
-                }
+     background-color: rgba(240, 237, 237, 0.801);
+     font-family: fantasy;
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     border-radius: 20px;
+}
 
-                .botao {                                /*nao precisa criar outro botao*/
-                    background-color: #000099;
-                    font-family: fantasy;
-                    color: white;
-                    border: none;
-                    padding: 10px;
-                    font-size: 12px;
-                    border-radius: 6px;
-                    cursor: pointer;
-                    margin-left: 155px;
-                    margin-top: 15px;
-                }
+.cad_func button {
+     align-self: flex-end;
+}
 
-                .botao:hover {
-                    transform: scale(1.04);
-                }
+.cad_func h1 {
+     font-weight: 300;
+}
 
-                .editar_func{
-                     background-color: rgba(240, 237, 237, 0.801);
-                     font-family: fantasy;
-                     padding: 20px;
-                     border-radius: 20px;
-                }
-                .remov_func{
-                     background-color: rgba(240, 237, 237, 0.801);
-                     font-family: fantasy;
-                     padding: 20px;
-                     border-radius: 20px;
-                }
-                .insert_vaga{
-                     background-color: rgba(240, 237, 237, 0.801);
-                     font-family: fantasy;
-                     padding: 20px;
-                     border-radius: 20px;
-                }
-                .cad_vaga{
-                     background-color: rgba(240, 237, 237, 0.801);
-                     font-family: fantasy;
-                     padding: 20px;
-                     border-radius: 20px;
-                }
-                .edit_vaga{
-                     background-color: rgba(240, 237, 237, 0.801);
-                     font-family: fantasy;
-                     padding: 20px;
-                     border-radius: 20px;
-                }
-                 .remov_vaga{
-                     background-color: rgba(240, 237, 237, 0.801);
-                     font-family: fantasy;
-                     padding: 20px;
-                     border-radius: 20px;
-                }
+.cad_func p {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+}
+
+.cad_func p select {
+     height: 32px;
+}
+
+.cad_func p input {
+     width: 97%;
+     height: 25px;
+}
+
+.botao {
+     /*nao precisa criar outro botao*/
+     background-color: #000099;
+     font-family: fantasy;
+     color: white;
+     border: none;
+     padding: 10px;
+     font-size: 12px;
+     border-radius: 6px;
+     cursor: pointer;
+     margin-left: 155px;
+     margin-top: 15px;
+}
+
+.botao:hover {
+     transform: scale(1.04);
+}
